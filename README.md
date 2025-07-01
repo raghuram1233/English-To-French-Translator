@@ -143,19 +143,6 @@ for i, translation in enumerate(translations):
 - **Loss Function**: Masked Sparse Categorical Crossentropy
 - **Early Stopping**: Patience of 3 epochs
 
-## 📁 File Structure
-
-```
-French_To_English/
-├── Main.ipynb              # Main training notebook
-├── Main - Copy.ipynb       # Backup/alternative notebook
-├── fra.txt                 # French-English dataset
-├── README.md              # This file
-└── (generated files)
-    ├── model_weights/     # Saved model weights
-    └── plots/            # Training visualization plots
-```
-
 ## 📦 Dependencies
 
 | Package         | Version | Purpose                 |
